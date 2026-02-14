@@ -204,7 +204,7 @@ function drawText() {
         if (window.innerWidth < 600) {
             drawTextWithLineBreaks(["i nie mogę się doczekać, aby spędzić cały ten czas na świecie i", "podzielić się z tobą tą miłością!"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
         } else {
-            context.fillText("and I can't wait to spend all the time in the world to share that love with you!", canvas.width/2, (canvas.height/2 + 50));
+            context.fillText("i nie mogę się doczekać, aby spędzić cały ten czas na świecie i", "podzielić się z tobą tą miłością!", canvas.width/2, (canvas.height/2 + 50));
         }
 
         secondOpacity = secondOpacity + 0.01;
