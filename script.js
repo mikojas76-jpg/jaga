@@ -56,16 +56,16 @@ button.addEventListener("click", () => {
     fetch('send_mail.php')
       .then(response => {
         if (response.ok) {
-          button.textContent = "nie działa 🙃";
+          button.textContent = "<3";
         } else {
           console.error('Failed to send email');
-          button.textContent = "niesiety 😞";
+          button.textContent = "<3";
         }
       })
       .catch(error => {
         // Handle network errors or other issues
         console.error('Error:', error);
-        button.textContent = "niestety 😞";
+        button.textContent = "<3";
       });
   }
 });
