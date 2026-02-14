@@ -51,7 +51,7 @@ function updateStars() {
 const button = document.getElementById("valentinesButton");
 
 button.addEventListener("click", () => {
-  if (button.textContent === "Naciśnij mnie! (jeślichcesz być moją walentynką) (nonchalacnko )❤") {
+  if (button.textContent === "Naciśnij mnie! (jeślichcesz być moją walentynką) (nonchalacnko)❤") {
     button.textContent = "ładowanie naplt...";
     fetch('send_mail.php')
       .then(response => {
@@ -122,7 +122,7 @@ function drawText() {
         if (window.innerWidth < 600) {
             drawTextWithLineBreaks(["wśród bilionów i bilionów gwiazd, przez miliardy lat"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("wśród bilionów i bilionów gwiazd, „przez miliardy lat", canvas.width/2, canvas.height/2);
+            context.fillText("wśród bilionów i bilionów gwiazd, przez miliardy lat", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity - 0.01;
@@ -204,7 +204,7 @@ function drawText() {
         if (window.innerWidth < 600) {
             drawTextWithLineBreaks(["i nie mogę się doczekać, aby spędzić cały ten czas na świecie i", "podzielić się z tobą tą miłością!"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
         } else {
-            context.fillText("i nie mogę się doczekać, aby spędzić cały ten czas na świecie i", "podzielić się z tobą tą miłością!!", canvas.width/2, (canvas.height/2 + 50));
+            context.fillText("i nie mogę się doczekać, aby spędzić cały ten czas na świecie i", "podzielić się z tobą tą miłością!", canvas.width/2, (canvas.height/2 + 50));
         }
 
         secondOpacity = secondOpacity + 0.01;
